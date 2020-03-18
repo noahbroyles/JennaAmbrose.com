@@ -20,8 +20,8 @@ h1 {
 }
 
 main {
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 p {
@@ -33,4 +33,9 @@ p {
 .indent {
     margin-left: 3%;
     margin-right: 3%;
+}
+
+.left {
+    float: left;
+    width: 15%;
 }
