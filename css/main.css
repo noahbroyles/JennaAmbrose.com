@@ -2,3 +2,24 @@
 header, nav, main, footer, figure, figcaption {
 	display: block;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-family: cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gold;
+    text-align: center;
+    font-size: 40pt;
+    margin-bottom: 0px;
+}
+
+main {
+    width: 80%;
+    margin-left: 10%;
+}
