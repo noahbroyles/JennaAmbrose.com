@@ -1,0 +1,4 @@
+/* Older browser stuff */
+header, nav, main, footer, figure, figcaption {
+	display: block;
+}
