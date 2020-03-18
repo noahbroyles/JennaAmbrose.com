@@ -8,7 +8,8 @@ html {
 }
 
 body {
-    background-color: aliceblue;
+    background-color: black;
+    color: white;
 }
 
 h1 {
@@ -17,6 +18,11 @@ h1 {
     text-align: center;
     font-size: 40pt;
     margin-bottom: 0px;
+}
+
+h2 {
+    color: gold;
+    text-align: center;
 }
 
 main {
@@ -38,4 +44,15 @@ p {
 .left {
     float: left;
     width: 15%;
+}
+
+.left figure img {
+    width: 200px;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 10pt;
+    text-align: center;
 }
