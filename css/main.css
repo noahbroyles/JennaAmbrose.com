@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(51, 50, 47);
     color: white;
 }
 
@@ -67,3 +67,21 @@ figcaption {
     font-size: 10pt;
     text-align: center;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(235, 147, 121);
+    text-decoration: none;
+}
+
