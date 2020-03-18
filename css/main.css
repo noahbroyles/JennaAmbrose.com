@@ -23,3 +23,14 @@ main {
     width: 80%;
     margin-left: 10%;
 }
+
+p {
+    line-height: 1.5em;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+.indent {
+    margin-left: 3%;
+    margin-right: 3%;
+}
