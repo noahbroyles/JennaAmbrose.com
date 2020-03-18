@@ -25,6 +25,17 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: rgb(235, 147, 121);
+    text-align: center;
+}
+
+.left p {
+    font-size: 10pt;
+    text-align: justify;
+    margin: 0px 5px 0px 5px;
+}
+
 main {
     width: 70%;
     margin-left: 15%;
