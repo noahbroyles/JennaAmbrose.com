@@ -144,6 +144,8 @@ a.email:hover {
 }
 
 .buynow {
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 36pt;
     font-family: cursive;
     border-radius: 2em;
@@ -154,6 +156,12 @@ a.email:hover {
     transition-duration: 1s;
     padding: 3px 10px 3px 10px;
     display: inline-block;
+}
+video {
+    width: 100%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    object-fit: contain;
 }
 .buynow:visited {
     color: gold;
