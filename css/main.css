@@ -16,7 +16,7 @@ body {
 
 h1 {
     font-family: cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: gold;
+    color: pink;
     text-align: center;
     font-size: 40pt;
     margin-bottom: 0px;
@@ -25,13 +25,13 @@ h1 {
 
 h2 {
     margin-top: 0px;
-    color: gold;
+    color: pink;
     text-align: center;
 }
 
 h3 {
     font-size: 14pt;
-    color: rgb(235, 147, 121);
+    color: red;
     text-align: center;
 }
 
@@ -114,16 +114,16 @@ ul {
 }
 
 a.email {
-    color: gold;
+    color: pink;
     transition-property: color;
     transition-duration: 1s;
     text-decoration: none;
 }
 a.email:visited {
-    color: gold;
+    color: pink;
 }
 a.email:hover {
-    color: rgb(235, 147, 121);
+    color: rgb(255, 0, 0);
     text-decoration: underline;
 }
 
@@ -150,7 +150,7 @@ a.email:hover {
     font-family: cursive;
     border-radius: 2em;
     text-align: center;
-    color: gold;
+    color: pink;
     background-color: rgb(90, 30, 77);
     transition-property: color, background-color;
     transition-duration: 1s;
@@ -164,9 +164,9 @@ video {
     object-fit: contain;
 }
 .buynow:visited {
-    color: gold;
+    color: pink;
 }
 .buynow:hover {
     color: rgb(90, 30, 77);
-    background-color: gold;
+    background-color: pink;
 }
