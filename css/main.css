@@ -11,6 +11,7 @@ body {
     background-color: rgb(51, 50, 47);
     color: white;
     font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -19,8 +20,6 @@ h1 {
     color: pink;
     text-align: center;
     font-size: 40pt;
-    margin-bottom: 0px;
-    margin-top: 0px;
 }
 
 h2 {
