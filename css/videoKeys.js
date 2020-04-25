@@ -14,7 +14,6 @@ document.onkeydown = checkKeys;
                 v.play();
             } else {
                 v.pause()
-            }
-                    
+            }         
     }
 }
