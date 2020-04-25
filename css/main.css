@@ -169,3 +169,37 @@ video {
     color: rgb(90, 30, 77);
     background-color: pink;
 }
+
+@media screen and (min-width: 320px) {
+    h1 {
+        font-size: 20pt;
+    }
+    body {
+        font-size: 12pt;
+    }
+    p {
+        font-size: 12pt;
+        line-height: 1.3em;
+        text-align: left;
+    }
+    .powr-comments {
+        width: 100%;
+        margin-left: 0;
+    }
+    main {
+        width: 100%;
+        margin-left: 0;
+    }
+    .left {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+    ul {
+        margin-left: 0;
+    }
+    ul li {
+        font-size: smaller;
+    }
+}
