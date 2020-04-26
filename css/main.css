@@ -170,9 +170,43 @@ video {
     background-color: pink;
 }
 
+.openbtn {
+    display: inline;
+    cursor: pointer;
+}
+.openbtn div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgb(90, 83, 83); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: scroll;
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.3s; /* 0.5 second transition effect to slide in the sidebar */
+}
+  
+  /* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
 @media screen and (min-width: 320px) {
     h1 {
-        font-size: 20pt;
+        font-size: 23pt;
     }
     body {
         font-size: 12pt;
@@ -201,5 +235,32 @@ video {
     }
     ul li {
         font-size: smaller;
+    }
+    h2 {
+        font-size: 23pt;
+    }
+    a.email {
+        font-size: 14pt;
+        line-height: 1.5em;
+    }
+    figure img {
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .sidebar {
+        display: none;
+    }
+    .left {
+        display: block;
+    }
+    .right {
+        display: block;
+    }
+    .openbtn {
+        display: none;
     }
 }
