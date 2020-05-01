@@ -248,6 +248,15 @@ video {
         margin-left: 10%;
         height: auto;
     }
+    .buynow {
+        width: 80%;
+        margin:0;
+        font-size: 20pt;
+        padding: 2px 5px 2px 5px;
+        display: block;
+        border-radius: 2em;
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
