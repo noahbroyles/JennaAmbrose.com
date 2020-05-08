@@ -738,7 +738,6 @@ html {
 @media (max-width: 850px) {
     .fh5co-counter {
         padding: 50px 0 20px;
-        margin-bottom: 50px;
     }
 }
 
@@ -1430,13 +1429,20 @@ a.button1:hover {
 
 .book-recommendations {
     background-color: antiquewhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Calisto-MT;
     font-size: 13pt;
+    line-height: 1.3em;
 }
 
 .book-recommendations > div.content {
     width: 70%;
     margin-left: 15%;
+}
+@media (max-width:320px) {
+    .book-recommendations > div.content {
+        width: 100%;
+        margin-left: 0;
+    }
 }
 
 .book-recommendations ul {
@@ -1444,6 +1450,5 @@ a.button1:hover {
 }
 
 .book-recommendations > ul li {
-    line-height: 1.2em;
     list-style-type: "🕮 ";
 }
