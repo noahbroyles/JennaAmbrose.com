@@ -7,27 +7,52 @@
     <meta name="robots" content="index, follow">
     <title>Before the Bell Rings</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
     <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <h1>Before the Bell Rings</h1>
-    </header>
+    
+    <!-- Navigation -->
+	<nav class="site-navigation">
+		<div class="site-navigation-inner site-container">
+			<div class="main-navigation">
+				<ul class="main-navigation__ul">
+					<li><a href="../index.html">Homepage</a></li>
+				</ul>
+			</div>
+			<div id="myBtn" class="burger-container" onclick="myFunction(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<script>
+				function myFunction(x) {
+					x.classList.toggle("change");
+				}
+			</script>
 
-    <div class="right">
-        <h2>Contact</h2>
-        <ul class="nav">
-            <li><a class="email" href="mailto:jennaambrose@gmail.com">Email Jenna Ambrose</a></li>
-            <li><a class="email" href="mailto:noah@javamate.net">Contact Webmaster</a></li>
-        </ul>
-        <br>
-        
-    </div>
-
+		</div>
+	</nav>
+	<!-- Navigation end -->
+    
+    <section class="fh5co-top-banner">
+		<div class="top-banner__inner site-container">
+			<div class="top-banner__image">
+				<img src="../images/beforeTheBellRings.jpg" alt="book cover">
+			</div>
+			<div class="top-banner__text">
+				<div class="top-banner__text-up">
+					<span class="brand-span">My First Book... </span>
+					<h2 class="top-banner__h2">Before the Bell Rings</h2>
+				</div>
+			</div>
+		</div>
+	</section>
     <main>
         <video id="vid" src="https://noahbroyles.club/JennaAmbrose/b4tbrvideo.mp4" preload="auto" controls autoplay muted></video>
         <script src="../css/videoKeys.js"></script>
-        
+        <!--
         <a href="../images/b4thebellringscover.png"><img class="wrapimg" src="../images/b4thebellringscover.png" alt="Before the Bell Rings Cover Picture" title="View Cover"></a>
         <p class="indentright">
             &nbsp;&nbsp;&nbsp;&nbsp;Heartbroken by the strange disappearance of their younger sister and the recent loss of their mother, two brothers, Alistair and Samuel Beck, face the demands of owning their father's restaurant at the young ages of 25 and 21. Though their seasoned French chef, Jacques, along with Al's best friend and restaurant manager, Joe, are there to guide and support them, the surly and incompetent staff continually disappoint them. This is further compounded by Sam's utter lack of tolerance for any cook who falls short of perfection.
@@ -56,6 +81,7 @@
             Finely chop all vegetables. Add to a bowl and squeeze lime into vegetables. Add remaining ingredients and stir. Enjoy with blue corn tortilla chips, or as Sam likes to do, add to cooked chicken breasts, then broil with some Monterey Jack cheese for Monterey Chicken! <br>
             Serves 10.            
         </em></p>
+        -->
     </main>
 </body>
 </html>
