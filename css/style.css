@@ -122,7 +122,6 @@
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-    text-transform: uppercase;
     transition: 0.3s ease;
 }
 
@@ -1322,5 +1321,96 @@ a.email:hover {
 }
 
 #vid {
-    
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 70%;
+    margin-left: 15%;
+}
+.wrapimg {
+    float: left;
+    width: 150px;
+    padding-right: 5px;
+}
+
+.indentright {
+    float: none;
+    font-size: 14pt;
+    line-height: 1.5em;
+    word-spacing: .2em;
+    font-family: cursive;
+}
+@media (min-width:320px) and (max-width: 425px) {
+    main {
+        width: 100%;
+        margin-left: 0;
+    }
+    .wrapimg {
+        display: none;
+    }
+    .indentright {
+        font-size: 12pt;
+        word-spacing: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
+
+
+a.button1 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid purple;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 25pt;
+    color: #c18f59;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.button1:hover {
+    color: purple;
+    background-color: #aaa;
+}
+
+.buynow {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (max-width: 320px) {
+    a.button1 {
+        font-size: 19pt;
+    }
+    .buynow {
+        width: 99%;
+        margin-left: .5%;
+    }
+}
+@media (max-width: 425px) {
+    .buynow {
+        width: 96%;
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 768px) {
+    .buynow {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media all and (max-width:30em) {
+    a.button1 {
+        display: block;
+        margin: 0.4em auto;
+    }
 }
