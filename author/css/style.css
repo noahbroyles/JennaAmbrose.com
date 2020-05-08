@@ -127,7 +127,7 @@
   position: relative;
   display: flex;
   align-items: flex-end;
-  background-image: url("../images/top-banner-bckg.jpg");
+  background-image: url("../images/trees-background.JPG");
   background-position: center;
   background-size: cover; }
   .fh5co-top-banner::after {
@@ -419,7 +419,9 @@
 
 .single-book {
   margin-bottom: 20px;
-  text-align: center; }
+  text-align: center; 
+  margin: auto;
+}
   .single-book .single-book__img {
     position: relative;
     display: block;
@@ -451,11 +453,6 @@
     font-weight: 600;
     font-style: italic;
     color: #c18f59; }
-  @media (max-width: 1250px) {
-    .single-book {
-      margin-right: 10px; }
-      .single-book:last-child {
-        margin-right: 0; } }
 
 .rating {
   margin-top: 8px;
@@ -859,3 +856,18 @@
       .footer-bottom-inner p {
         font-size: 14px;
         margin-bottom: 20px; } }
+
+a.email {
+  color: pink;
+  transition-property: color;
+  transition-duration: 1s;
+  text-decoration: none;
+}
+a.email:visited {
+    color: pink;
+}
+a.email:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+      

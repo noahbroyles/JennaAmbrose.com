@@ -74,3 +74,7 @@ $(window).scroll(function(e){
 	}
 
 });
+
+function go(url) {
+	window.location.href = url;
+}
