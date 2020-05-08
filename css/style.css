@@ -1452,3 +1452,12 @@ a.button1:hover {
 .book-recommendations > ul li {
     list-style-type: "🕮 ";
 }
+
+h3.upcoming-book {
+    font-size: 20pt;
+}
+
+.single-book > p.smaller {
+    width: 50%;
+    margin-left: 25%;
+}
