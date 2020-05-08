@@ -23,6 +23,9 @@
     src: url(../fonts/Calisto-MT-Bold.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* Colors */
 
@@ -710,7 +713,6 @@
 
 .fh5co-counter {
     position: relative;
-    margin-bottom: 122px;
     padding: 100px 0;
     background-image: url("../images/book-bckg.jpg");
     background-size: cover;
@@ -1383,6 +1385,7 @@ a.button1:hover {
 .buynow {
     width: 50%;
     margin: 0 auto;
+    text-align: center;
 }
 
 @media (max-width: 320px) {
@@ -1413,4 +1416,34 @@ a.button1:hover {
         display: block;
         margin: 0.4em auto;
     }
+}
+
+.recipe {
+    text-decoration: underline;
+    font-size: 20pt;
+}
+
+.indent {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.book-recommendations {
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13pt;
+}
+
+.book-recommendations > div.content {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.book-recommendations ul {
+    margin-left: 5%;
+}
+
+.book-recommendations > ul li {
+    line-height: 1.2em;
+    list-style-type: "🕮 ";
 }
