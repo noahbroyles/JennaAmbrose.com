@@ -27,6 +27,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /* Colors */
 
 
@@ -1330,6 +1331,7 @@ main {
     width: 70%;
     margin-left: 15%;
 }
+
 .wrapimg {
     float: left;
     width: 150px;
@@ -1343,6 +1345,7 @@ main {
     word-spacing: .2em;
     font-family: cursive;
 }
+
 @media (min-width:320px) and (max-width: 425px) {
     main {
         width: 100%;
@@ -1358,7 +1361,6 @@ main {
         margin-right: 3px;
     }
 }
-
 
 a.button1 {
     display: inline-block;
@@ -1396,6 +1398,7 @@ a.button1:hover {
         margin-left: .5%;
     }
 }
+
 @media (max-width: 425px) {
     .buynow {
         width: 96%;
@@ -1434,12 +1437,13 @@ a.button1:hover {
     line-height: 1.3em;
 }
 
-.book-recommendations > div.content {
+.book-recommendations>div.content {
     width: 70%;
     margin-left: 15%;
 }
+
 @media (max-width:320px) {
-    .book-recommendations > div.content {
+    .book-recommendations>div.content {
         width: 100%;
         margin-left: 0;
     }
@@ -1449,7 +1453,7 @@ a.button1:hover {
     margin-left: 5%;
 }
 
-.book-recommendations > ul li {
+.book-recommendations>ul li {
     list-style-type: "🕮 ";
 }
 
@@ -1457,7 +1461,24 @@ h3.upcoming-book {
     font-size: 20pt;
 }
 
-.single-book > p.smaller {
+.single-book>p.smaller {
     width: 50%;
     margin-left: 25%;
+}
+
+
+img.citypic {
+    width: 40%;
+    margin-left: 30%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .single-book>p.smaller {
+        width: 100%;
+        margin: 0;
+    }
+    img.citypic {
+        width: 100%;
+        margin: 0%;
+    }
 }
